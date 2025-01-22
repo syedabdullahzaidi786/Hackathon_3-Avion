@@ -1,0 +1,7 @@
+Test Case ID,Test Case Description,Test Steps,Expected Result,Actual Result,Status,Severity Level,Assigned To,Remarks
+TC001,Validate product listing page,Open product page > Verify products,Products displayed correctly,Products displayed correctly,Passed,Low,-,No issues found
+TC002,Test API error handling,Disconnect API > Refresh page,Show fallback UI with error message,Error message shown,Passed,Medium,-,Handled gracefully
+TC003,Check cart functionality,Add Products to Cart > Cart Pagre,Cart updates with added product,Cart Popup only on Product Name,Passed,Medium,-,Somwhow as expected
+TC004,Ensure responsiveness on mobile,Resize browser window > Check layout,Layout adjusts properly to screen size,Responsive layout working as intended,Passed,Medium,-,Test successful
+TC005,Checkout Page Show,Cart Page > Checkout Page,Show Total Amount of Cart,Showed Total Amount Of Cart on Checkout,Passed,Medium,-,Successful
+TC006,Thankyou Component,Checkout Page > Thankyou Component,Show Thankyou Component on Checkout Page,Showed Succesfullly,Passed,Medium,-,Successful
